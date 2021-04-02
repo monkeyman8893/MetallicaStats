@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 
+'Ok I added this comment to see if this gets pushed in the remote repository'
+
 'requesting the webpage contents'
 source = requests.get('https://www.ipom.com/cgi-bin/tour_stats.pl#stats').text 
 soup = BeautifulSoup(source, 'lxml')
